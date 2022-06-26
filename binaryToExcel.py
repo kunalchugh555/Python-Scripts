@@ -22,7 +22,7 @@ num = str(9);
 fname = 't' + num + '.bin'  # Looks like 4 byte data, ints, time(ms since epoch) and voltage(mV) .
 
 # Data type with the binary format.  See page
-# https://stackoverflow.com/questions/16573089/reading-binary-data-into-pandas 
+# https://stackoverflow.com/questions/16573089/reading-binary-data-into-pandas
 
 dt = np.dtype([('time', 'i4'), ('volts', 'i4')])  # datatype for reading binary
 mydata = np.fromfile(fname, dt)  # numpy array
@@ -69,7 +69,3 @@ df.to_excel('sample' + num + '.xlsx')
 
 
 # In[ ]:
-
-
-
-
