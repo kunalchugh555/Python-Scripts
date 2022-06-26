@@ -1,3 +1,4 @@
+//File Handling example in MATLAB
 function [c s l] = e4_text_stats(fname)
     c = -1;
     s = -1;
@@ -12,7 +13,7 @@ function [c s l] = e4_text_stats(fname)
             c = c+length(one_line);
             l = l+1;
             s = s + length(strfind(one_line,'.')) + length(strfind(one_line,'?')) + length(strfind(one_line,'!'));
-            one_line = fgetl(fid); 
+            one_line = fgetl(fid);
         end
     end
     fclose(fid);
