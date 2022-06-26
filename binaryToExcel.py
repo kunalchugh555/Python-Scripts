@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Nick's Binary Data file for cycles
+# Binary Data file for cycles
 # 20220613 weg <br>
 
 # In[1]:
